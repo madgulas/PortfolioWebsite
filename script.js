@@ -4,13 +4,15 @@ gsap.to("#right-nav", {
     delay: 0.9,
     duration: 1.5,
     repeat: -1,
-    yoyo: true
+    yoyo: true,
+   
 })
 gsap.from("#left-nav",{
     delay: 1,
     opacity: 0,
     duration: 1,
     y: -50,
+    ease: "power2.inOut",
     // repeat: -1,
     // yoyo: true
 })
