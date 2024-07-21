@@ -54,6 +54,9 @@ html, body{
     border-radius: 10px;
     border-color: black;
     border-style: dotted;
+    background: url(https://miro.medium.com/v2/resize:fit:1400/1*m0H6-tUbW6grMlezlb52yw.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #project2{
     position: relative;
