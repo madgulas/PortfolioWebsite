@@ -8,6 +8,7 @@
 html, body{
     width: 100%;
     height: 100%;
+    
 }
 #right-nav{
     display: flex;
@@ -16,9 +17,17 @@ html, body{
     margin: 30px 30px;
     width: 45%;
     left: 50%;
-    
    
 }
+#string{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    top: 50%;
+ 
+}
+
 #left-nav{
     text-align: left;
     padding-left: 40px;
@@ -27,7 +36,7 @@ html, body{
     position: absolute;
     top: 20%;
     height: 30%;
-    background-color: orange;
+    background-color: rgb(247, 180, 54);
 }
 #left-nav h1{
     padding-top: 20px;
@@ -39,7 +48,7 @@ html, body{
     display: flex;
     position: absolute;
     justify-content: space-between;
-    top: 60%;
+    top: 75%;
     height: 20%;
     width: 100%;
     background-color: aquamarine;
