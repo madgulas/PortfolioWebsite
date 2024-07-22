@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 html, body{
@@ -43,6 +43,18 @@ html, body{
 }
 #left-nav h3{
     padding-top: 10px;
+}
+#left-nav button{
+    width: 100px;
+    top: 10px;
+    border-radius: 8px;
+    color:rgb(106, 106, 249);
+}
+#left-nav button:hover{
+    width:150px;
+    height:50px;
+    transition: 2s;
+    background-color: rgb(151, 247, 151);
 }
 #projects{
     display: flex;
@@ -106,4 +118,31 @@ html, body{
     display: flex;
     background-color: bisque;
     width: 30%;
+}
+#about-me h3{
+    top: 20%;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: red;
+
+}
+
+#about-me p{
+    top: 25%;
+    left: 30%;
+    width: 700px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: aquamarine;
+}
+#back{
+    font-weight: 400;
+    font-size: large;
+    top: 20px;
+    left: 10px;
+    position: relative;
 }
