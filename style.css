@@ -64,7 +64,7 @@ html, body{
 #right-nav a:hover{
     width: 100px;
     height: 50px;
-    color: rgb(48, 104, 60);
+    color: rgb(4, 90, 249);
     transition: 2;
     
 }
@@ -75,7 +75,8 @@ html, body{
     top: 75%;
     height: 20%;
     width: 100%;
-    background-color: aquamarine;
+   
+    border-style: double;
 }
 #project1{
     text-align: justify;
@@ -83,12 +84,13 @@ html, body{
     justify-content: center;
     display: flex;
     background-color: bisque;
-    width: 30%;
+    width: 20%;
     border-radius: 10px;
-    border-color: black;
-    border-style: dotted;
-    background: url(https://miro.medium.com/v2/resize:fit:1400/1*m0H6-tUbW6grMlezlb52yw.png);
-    background-size: cover;
+    border-color: rgb(4, 90, 249);
+    background: url(files/Python.JPG);
+    
+    background-size: contain;
+    
     background-repeat: no-repeat;
 }
 #project2{
@@ -96,40 +98,52 @@ html, body{
     justify-content: center;
     display: flex;
     background-color: bisque;
-    width: 30%;
+    width: 20%;
     border-radius: 10px;
-    border-color: black;
-    border-style: dotted;
-}
+    border-color: rgb(4, 90, 249);
+    background: url(files/JavaScript.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}  
 #project3{
     position: relative;
     justify-content: center;
     display: flex;
     background-color: bisque;
-    width: 30%;
+    width: 20%;
     border-radius: 10px;
-    border-color: black;
-    border-style: dotted;
+    border-color: rgb(4, 90, 249);
+    background: url(files/sql.png);
+    object-fit: cover;
+    background-size: contain    ;
+    background-repeat: no-repeat;
+    
 }
 #project4{
     position: relative;
     justify-content: center;
     display: flex;
     background-color: bisque;
-    width: 30%;
+    width: 20%;
     border-radius: 10px;
-    border-color: black;
-    border-style: dotted;
+    border-color: rgb(4, 90, 249);
+    background: url(files/css.png);
+    object-fit: cover;
+    background-size: contain;
+    background-repeat: repeat-y;
+    
 }
 #project5{
     position: relative;
     justify-content: center;
     border-radius: 10px;
-    border-color: black;
-    border-style: dotted;
+    border-color: rgb(4, 90, 249);
     display: flex;
     background-color: bisque;
-    width: 30%;
+    width: 20%;
+    background: url(https://miro.medium.com/v2/resize:fit:1400/1*m0H6-tUbW6grMlezlb52yw.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #about-me h3{
     top: 20%;

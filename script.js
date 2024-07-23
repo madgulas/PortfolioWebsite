@@ -23,6 +23,13 @@ gsap.from("#left-nav h2",{
     duration: 1,
     
 })
+gsap.from("#projects",{
+    x: 1500,
+    opacity: 0,
+    delay:1,
+    duration:2.5,
+    
+})
 
 var initialPath = `M 10 100 Q 200 100 990 100`
 
