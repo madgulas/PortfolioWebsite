@@ -56,6 +56,18 @@ html, body{
     transition: 2s;
     background-color: rgb(151, 247, 151);
 }
+#right-nav a{
+    color: black;
+    width: 100px;
+    height: 50px;
+}
+#right-nav a:hover{
+    width: 100px;
+    height: 50px;
+    color: rgb(48, 104, 60);
+    transition: 2;
+    
+}
 #projects{
     display: flex;
     position: absolute;
