@@ -146,3 +146,26 @@ html, body{
     left: 10px;
     position: relative;
 }
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px){
+    #main{
+        flex-direction: column;
+    }
+    #main #left{
+        width: 100%;
+    
+    }
+    #main #right{
+        width: 100%;
+    }
+}
