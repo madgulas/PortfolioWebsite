@@ -9,6 +9,7 @@ html, body{
     width: 100%;
     height: 100%;
     
+    
 }
 #right-nav{
     display: flex;
@@ -23,14 +24,16 @@ html, body{
     display: flex;
     position: absolute;
     width: 100%;
-    height: 60%;
+    height: 40%;
     top: 50%;
  
 }
 
 #left-nav{
+    width: 50%;
     text-align: left;
     padding-left: 40px;
+    border-radius: 10px;
     padding-top: 20px;
     justify-content: left;
     position: absolute;
@@ -39,7 +42,7 @@ html, body{
     background-color: rgb(205, 241, 251);
 }
 #left-nav h1{
-    padding-top: 20px;
+    padding-top: 10px;
 }
 #left-nav h3{
     padding-top: 10px;
@@ -52,21 +55,22 @@ html, body{
 }
 #left-nav button:hover{
     width:150px;
-    height:50px;
+    height:30px;
     transition: 2s;
     background-color: rgb(151, 247, 151);
 }
 #right-nav a{
-    color: black;
+    color: rgb(8, 8, 8);
     width: 100px;
     height: 50px;
+    transition: 1s;
 }
 #right-nav a:hover{
-    width: 100px;
+    font-size: 30px;
+    width: 70px;
     height: 50px;
     color: rgb(4, 90, 249);
-    transition: 2;
-    
+  
 }
 #projects{
     display: flex;
@@ -75,62 +79,71 @@ html, body{
     top: 75%;
     height: 20%;
     width: 100%;
-   
     border-style: double;
+    
+    
 }
-#project1{
+.zoom{
+    transition: 2s;
+}
+.zoom:hover{
+    transform: scale(1.1);
+}
+#project1{  
     text-align: justify;
     position: relative;
     justify-content: center;
     display: flex;
-    background-color: bisque;
+    background-color: rgb(8, 7, 7);
     width: 20%;
     border-radius: 10px;
     border-color: rgb(4, 90, 249);
     background: url(files/Python.JPG);
     
-    background-size: contain;
-    
-    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
+    background-size: cover;
 }
 #project2{
     position: relative;
     justify-content: center;
     display: flex;
-    background-color: bisque;
+    background-color: rgb(17, 17, 17);
     width: 20%;
     border-radius: 10px;
-    border-color: rgb(4, 90, 249);
+    border-color: rgb(11, 12, 12);
     background: url(files/JavaScript.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
+    background-size: cover;
 }  
 #project3{
     position: relative;
     justify-content: center;
     display: flex;
-    background-color: bisque;
+    background-color: rgb(10, 10, 10);
     width: 20%;
     border-radius: 10px;
     border-color: rgb(4, 90, 249);
     background: url(files/sql.png);
-    object-fit: cover;
-    background-size: contain    ;
-    background-repeat: no-repeat;
-    
+    background-position: center;
+    object-fit: contain;
+    background-size: cover;
+
 }
 #project4{
     position: relative;
     justify-content: center;
     display: flex;
-    background-color: bisque;
+    background-color: rgb(13, 13, 12);
     width: 20%;
     border-radius: 10px;
     border-color: rgb(4, 90, 249);
     background: url(files/css.png);
-    object-fit: cover;
-    background-size: contain;
-    background-repeat: repeat-y;
+    background-position: center;
+    object-fit: contain;
+    background-size: cover;
+   
     
 }
 #project5{
@@ -139,11 +152,12 @@ html, body{
     border-radius: 10px;
     border-color: rgb(4, 90, 249);
     display: flex;
-    background-color: bisque;
+    background-color: rgb(16, 16, 16);
     width: 20%;
     background: url(https://miro.medium.com/v2/resize:fit:1400/1*m0H6-tUbW6grMlezlb52yw.png);
+    background-position: center;
+    object-fit: contain;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 /* #about-me{
     padding: 0;

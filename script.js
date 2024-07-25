@@ -5,13 +5,14 @@ gsap.to("#right-nav", {
     duration: 1.5,
     repeat: -1,
     yoyo: true,
+    
    
 })
 gsap.from("#left-nav",{
     delay: 1,
     opacity: 0,
     duration: 1,
-    y: -50,
+    y: 50,
     ease: "power2.inOut",
     // repeat: -1,
     // yoyo: true
@@ -33,15 +34,15 @@ gsap.from("#projects",{
 
 var initialPath = `M 10 100 Q 200 100 990 100`
 
-var finalPath = `M 10 100 Q 200 100 990 100`
+var finalPath = `M 10 100 Q 120 100 990 100`
 
 var string = document.querySelector("#string")
 
 string.addEventListener("mousemove", function(dets){
-    path = `M 10 100 Q ${dets.x} ${dets.y} 990 100`
+    path = `M 10 100 Q ${dets.x} ${dets.y} 900 100`
     gsap.to('svg path', {
         attr : {d: path},
-        duration: 0.3,
+        duration: 0.4,
         ease: 'power3.out'
     })
 })
