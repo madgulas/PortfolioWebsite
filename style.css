@@ -145,7 +145,7 @@ html, body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-#about-me{
+/* #about-me{
     padding: 0;
     margin:0;
     box-sizing: border-box;
@@ -153,25 +153,35 @@ html, body{
     height: 100%;
     
    
-}
+} */
 #info{
+    font-family: sans-serif;
     justify-content: center;
     align-items: center;
+    background-color: rgb(224, 249, 253);
     width: 50%;
-    height: 50%;
-    position: relative;
+    height: 100%;
+    position: absolute;
     top: 10%;
     left: 20%;
-    bottom: 10%;
+    padding-bottom: 200px;
+    
 }
 
 
 #back{
-    font-weight: 400px;
+    font-weight: 500px;
     font-size: large;
     top: 20px;
     left: 20px;
     position: absolute;
+    transition: 1s;
+    color: rgb(214, 82, 82);
+
+}
+#back:hover{
+    color: rgb(0, 149, 255);
+    font-size: 30px;  
 }
 
 
