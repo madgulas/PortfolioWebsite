@@ -142,9 +142,7 @@ html, body{
     background: url(files/css.png);
     background-position: center;
     object-fit: contain;
-    background-size: cover;
-   
-    
+    background-size: cover;   
 }
 #project5{
     position: relative;
@@ -158,6 +156,13 @@ html, body{
     background-position: center;
     object-fit: contain;
     background-size: cover;
+}
+#cursor{
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    border-radius: 50%;
+    background-color: rgb(232, 24, 24);
 }
 /* #about-me{
     padding: 0;
