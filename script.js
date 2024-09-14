@@ -6,6 +6,7 @@ gsap.to("#right-nav", {
     repeat: -1,
     yoyo: true,
     
+    
    
 })
 gsap.from("#left-nav",{
