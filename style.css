@@ -266,6 +266,18 @@ html, body{
 
     
 }
+#social{
+    display: flex;
+    position: absolute;
+    display: flex;
+    margin: 10px 180px;
+    top: 10px;
+    justify-content: space-around;
+    padding: 10px;
+    cursor: pointer;
+    gap: 80px;
+    
+}
 
 
 
