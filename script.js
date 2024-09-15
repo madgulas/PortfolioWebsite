@@ -30,8 +30,15 @@ gsap.from("#projects",{
     opacity: 0,
     delay:1,
     duration:2.5,
-    
+
 })
+gsap.from("#img1",{
+    y: 1500,
+    opacity: 0,
+    delay: 1,
+    duration:2.5
+})
+
 
 var initialPath = `M 10 100 Q 200 100 990 100`
 
